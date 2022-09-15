@@ -1,4 +1,4 @@
-import {createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root {
@@ -24,7 +24,17 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         @media screen and (max-width: 720px){
-            font-size: 85.5%;
+            font-size: 80%;
+
+            .text {
+                padding-left: 20%;
+            }
+
+            .background {
+                display: none;
+            }
+
+            
         }
     }
 
@@ -46,4 +56,5 @@ export const GlobalStyle = createGlobalStyle`
     button {
         cursor: pointer;
     }
-`
+
+`;
