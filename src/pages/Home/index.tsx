@@ -1,4 +1,5 @@
 import { Content } from "./styles";
+import ImagePNG from "../../images/github.png";
 
 export function Home() {
     return (
@@ -32,9 +33,15 @@ export function Home() {
 
             </div>
 
-            <div className="background">
-                Olá
-            </div>
+            <div className="background" />
+
+            <img src={ImagePNG} alt="Me" />
+
+            {/* <div className="image">
+                <img src={ImagePNG} alt="Me" />
+            </div> */}
+
+
 
         </Content>
 

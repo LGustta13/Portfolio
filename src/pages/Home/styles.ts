@@ -3,6 +3,24 @@ import styled from "styled-components";
 export const Content = styled.div`
   display: flex;
 
+  img {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 20px;
+    left: 100px;
+  }
+
+  /* div.image {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+
+    img {
+      width: 400px;
+    }
+  } */
+
   div.background {
     position: fixed;
     height: 100vh;
