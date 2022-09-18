@@ -4,7 +4,7 @@ export const Content = styled.div`
   display: flex;
 
   div.background {
-    position: absolute;
+    position: fixed;
     height: 100vh;
     width: 46.5%;
     transform: skewX(15deg);
@@ -12,7 +12,7 @@ export const Content = styled.div`
   }
 
   div.text {
-    position: absolute;
+    position: relative;
     left: 40%;
     width: 60%;
     background: var(--shape);
@@ -23,7 +23,13 @@ export const Content = styled.div`
     justify-content: center;
     padding-left: 11.75rem;
 
-    h4 {
+    header {
+      position: relative;
+      bottom: 150px;
+      margin-top: 50px;
+      font-size: 0.94rem;
+      font-weight: 500;
+      line-height: 22.5px;
     }
 
     h1 {
@@ -54,6 +60,7 @@ export const Content = styled.div`
 
     p {
       margin-top: 20px;
+      max-width: 383px;
 
       font-weight: 400;
       font-size: 1rem;
@@ -62,7 +69,23 @@ export const Content = styled.div`
     }
 
     button {
-      margin-top: 58px;
+      margin-top: 56px;
+      width: 95px;
+      height: 41px;
+      background: #000000;
+      border-radius: 10px;
+
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 27px;
+      color: var(--red);
+
+      transition: filter 0.1s;
+
+      &:hover {
+        filter: opacity(0.95);
+        color: white;
+      }
     }
   }
 `;

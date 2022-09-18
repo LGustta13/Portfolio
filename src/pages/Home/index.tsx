@@ -3,12 +3,10 @@ import { Content } from "./styles";
 export function Home() {
     return (
         <Content>
-
             <div className="text">
-
-                <h4>
-                    Home - About Us - Portfólio - Contact Us;
-                </h4>
+                <header>
+                    Home - About Us - Service - Portfólio - Contact Us
+                </header>
 
                 <h1>
                     Hello I'm
@@ -39,6 +37,8 @@ export function Home() {
             </div>
 
         </Content>
+
+
 
     );
 }

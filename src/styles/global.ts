@@ -25,16 +25,6 @@ export const GlobalStyle = createGlobalStyle`
 
         @media screen and (max-width: 720px){
             font-size: 80%;
-
-            .text {
-                padding-left: 20%;
-            }
-
-            .background {
-                display: none;
-            }
-
-            
         }
     }
 
