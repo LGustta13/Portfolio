@@ -11,16 +11,6 @@ export const Content = styled.div`
     left: 100px;
   }
 
-  /* div.image {
-    position: absolute;
-    top: 20px;
-    left: 100px;
-
-    img {
-      width: 400px;
-    }
-  } */
-
   div.background {
     position: fixed;
     height: 100vh;
