@@ -43,7 +43,7 @@ export const Content = styled.div`
         margin-bottom: 14px;
       }
 
-      div.text-line {
+      /* div.text-line {
         display: flex;
         margin-bottom: 37px;
 
@@ -61,7 +61,7 @@ export const Content = styled.div`
           width: 4px;
           margin-left: 3px;
         }
-      }
+      } */
 
       p {
         font-weight: 400;
