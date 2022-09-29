@@ -1,0 +1,40 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "image": "",
+            "title": "UX Designer",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
+        },
+        {
+            "id": 2,
+            "image": "",
+            "title": "Website Design",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
+        },
+        {
+            "id": 3,
+            "image": "",
+            "title": "SEO",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
+        },
+        {
+            "id": 4,
+            "image": "",
+            "title": "Digital Markeitng",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
+        },
+        {
+            "id": 5,
+            "image": "",
+            "title": "Content Writing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
+        },
+        {
+            "id": 6,
+            "image": "",
+            "title": "Graphic Design",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
+        }
+    ]
+}
