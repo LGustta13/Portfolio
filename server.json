@@ -2,37 +2,37 @@
     "services": [
         {
             "id": 1,
-            "image": "",
+            "image": "http://localhost:3000/assets/images/ux-designer.svg",
             "title": "UX Designer",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
         },
         {
             "id": 2,
-            "image": "",
+            "image": "http://localhost:3000/assets/images/website-design.svg",
             "title": "Website Design",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
         },
         {
             "id": 3,
-            "image": "",
+            "image": "http://localhost:3000/assets/images/seo.svg",
             "title": "SEO",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
         },
         {
             "id": 4,
-            "image": "",
+            "image": "http://localhost:3000/assets/images/digital-marketing.svg",
             "title": "Digital Markeitng",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
         },
         {
             "id": 5,
-            "image": "",
+            "image": "http://localhost:3000/assets/images/content-writing.svg",
             "title": "Content Writing",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
         },
         {
             "id": 6,
-            "image": "",
+            "image": "http://localhost:3000/assets/images/graphic-design.svg",
             "title": "Graphic Design",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et dui, ullamcorper ut quis congue purus volutpat posuere lorem."
         }

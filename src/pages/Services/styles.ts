@@ -17,12 +17,10 @@ export const Content = styled.div`
     }
   }
 
-  div.content-text {
-    width: 348px;
-    height: 350px;
-    padding: 33px 36px;
-
-    border-radius: 20px;
-    background-color: var(--shape);
+  div.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 31px;
+    margin-bottom: 20px;
   }
 `;
