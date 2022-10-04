@@ -12,8 +12,13 @@ export const Content = styled.button<ContentProps>`
 
   border-radius: 20px;
 
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, filter 0.2s;
+
   background-color: ${(props) => (props.activated ? "#FF0000" : "#FFFFFF")};
+
+  &:hover {
+    filter: brightness(0.8);
+  }
 
   div.rectangle {
     display: flex;
