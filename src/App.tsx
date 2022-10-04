@@ -1,23 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import { HireMe } from './pages/HireMe';
+import { Home } from './pages/Home';
+import { Services } from './pages/Services';
 import { GlobalStyle } from './styles/global';
 
 export function App() {
   return (
     <>
-      <Content>
-        <h1 className="smooth">
-          Welcome to my website
-        </h1>
-      </Content>
-
+      <Services />
       <GlobalStyle />
     </>
   );
 }
-
-const Content = styled.h1`
-  .smooth {
-    color: var(--shape);
-  }
-`;
