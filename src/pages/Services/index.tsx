@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 import { Content } from "./styles";
-import { Lines } from "../../components/Lines";
-import rectangleImg from "../../assets/rectangle.svg";
 import { ServiceCard } from "../../components/ServiceCard";
+import { Header } from "../../components/Header";
 
 type ServiceProps = {
     id: number,
@@ -38,13 +37,7 @@ export function Services() {
 
         <Content>
 
-            <div className="header-text">
-                <h1>
-                    Services
-                </h1>
-
-                <Lines />
-            </div>
+            <Header title="Services" />
 
             <div className="cards">
                 {services &&
