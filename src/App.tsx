@@ -4,11 +4,12 @@ import { HireMe } from './pages/HireMe';
 import { Home } from './pages/Home';
 import { Services } from './pages/Services';
 import { GlobalStyle } from './styles/global';
+import { Experience } from './pages/Experience';
 
 export function App() {
   return (
     <>
-      <Services />
+      <Experience />
       <GlobalStyle />
     </>
   );
